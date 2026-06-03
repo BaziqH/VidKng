@@ -6,6 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		002F116B2F9736B70096E240 /* VidKngTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002F11692F9736B70096E240 /* VidKngTests.swift */; };
+		002F116F2F9736B70096E240 /* VidKngUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002F116C2F9736B70096E240 /* VidKngUITests.swift */; };
+		002F11702F9736B70096E240 /* VidKngUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002F116D2F9736B70096E240 /* VidKngUITestsLaunchTests.swift */; };
+		002F117C2F9737180096E240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002F11792F9737180096E240 /* AppDelegate.swift */; };
+		002F117D2F9737180096E240 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002F117A2F9737180096E240 /* SceneDelegate.swift */; };
+		002F11862F9737180096E240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002F117E2F9737180096E240 /* Assets.xcassets */; };
+		002F11872F9737180096E240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002F11812F9737180096E240 /* LaunchScreen.storyboard */; };
+		002F11882F9737180096E240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002F11832F9737180096E240 /* Main.storyboard */; };
+		002F118C2F97373E0096E240 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002F11892F97373E0096E240 /* Constants.swift */; };
+		002F118D2F97373E0096E240 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002F118A2F97373E0096E240 /* DesignableView.swift */; };
+		002F11932F97378B0096E240 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002F11912F97378B0096E240 /* FeedVC.swift */; };
+		002F11982F9737F80096E240 /* Navbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002F11952F9737F80096E240 /* Navbar.xib */; };
+		002F11992F9737F80096E240 /* Navbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002F11942F9737F80096E240 /* Navbar.swift */; };
+		002F11AE2F973BA40096E240 /* Feed+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002F11AD2F973BA40096E240 /* Feed+TableView.swift */; };
+		002F11B62F973CD10096E240 /* FilterCVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002F11B02F973CD10096E240 /* FilterCVuCell.xib */; };
+		002F11B72F973CD10096E240 /* FilterTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002F11B32F973CD10096E240 /* FilterTVuCell.xib */; };
+		002F11B82F973CD10096E240 /* FilterCVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002F11AF2F973CD10096E240 /* FilterCVuCell.swift */; };
+		002F11B92F973CD10096E240 /* FilterTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002F11B22F973CD10096E240 /* FilterTVuCell.swift */; };
+		002F11BC2F97429A0096E240 /* VideoTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002F11BB2F97429A0096E240 /* VideoTVuCell.xib */; };
+		002F11BD2F97429A0096E240 /* VideoTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002F11BA2F97429A0096E240 /* VideoTVuCell.swift */; };
+		00DFE6792FD018D80024D939 /* VidKng.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE6762FD018D80024D939 /* VidKng.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		002F11382F9736800096E240 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,38 +51,29 @@
 		002F111E2F97367D0096E240 /* VidKng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidKng.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		002F11372F9736800096E240 /* VidKngTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VidKngTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		002F11412F9736800096E240 /* VidKngUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VidKngUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		002F11572F9736B10096E240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002F11692F9736B70096E240 /* VidKngTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidKngTests.swift; sourceTree = "<group>"; };
+		002F116C2F9736B70096E240 /* VidKngUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidKngUITests.swift; sourceTree = "<group>"; };
+		002F116D2F9736B70096E240 /* VidKngUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidKngUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		002F11792F9737180096E240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		002F117A2F9737180096E240 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		002F117E2F9737180096E240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		002F11802F9737180096E240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		002F11822F9737180096E240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		002F11892F97373E0096E240 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		002F118A2F97373E0096E240 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		002F11912F97378B0096E240 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		002F11942F9737F80096E240 /* Navbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navbar.swift; sourceTree = "<group>"; };
+		002F11952F9737F80096E240 /* Navbar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Navbar.xib; sourceTree = "<group>"; };
+		002F11AD2F973BA40096E240 /* Feed+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Feed+TableView.swift"; sourceTree = "<group>"; };
+		002F11AF2F973CD10096E240 /* FilterCVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCVuCell.swift; sourceTree = "<group>"; };
+		002F11B02F973CD10096E240 /* FilterCVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterCVuCell.xib; sourceTree = "<group>"; };
+		002F11B22F973CD10096E240 /* FilterTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTVuCell.swift; sourceTree = "<group>"; };
+		002F11B32F973CD10096E240 /* FilterTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterTVuCell.xib; sourceTree = "<group>"; };
+		002F11BA2F97429A0096E240 /* VideoTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTVuCell.swift; sourceTree = "<group>"; };
+		002F11BB2F97429A0096E240 /* VideoTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoTVuCell.xib; sourceTree = "<group>"; };
+		00DFE6782FD018D80024D939 /* VidKng.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VidKng.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		002F11492F9736800096E240 /* Exceptions for "VidKng" folder in "VidKng" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 002F111D2F97367D0096E240 /* VidKng */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		002F11202F97367D0096E240 /* VidKng */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				002F11492F9736800096E240 /* Exceptions for "VidKng" folder in "VidKng" target */,
-			);
-			path = VidKng;
-			sourceTree = "<group>";
-		};
-		002F113A2F9736800096E240 /* VidKngTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = VidKngTests;
-			sourceTree = "<group>";
-		};
-		002F11442F9736800096E240 /* VidKngUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = VidKngUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		002F111B2F97367D0096E240 /* Frameworks */ = {
@@ -88,9 +103,9 @@
 		002F11152F97367D0096E240 = {
 			isa = PBXGroup;
 			children = (
-				002F11202F97367D0096E240 /* VidKng */,
-				002F113A2F9736800096E240 /* VidKngTests */,
-				002F11442F9736800096E240 /* VidKngUITests */,
+				002F115F2F9736B10096E240 /* VidKng */,
+				002F116A2F9736B70096E240 /* VidKngTests */,
+				002F116E2F9736B70096E240 /* VidKngUITests */,
 				002F111F2F97367D0096E240 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +118,153 @@
 				002F11412F9736800096E240 /* VidKngUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		002F115F2F9736B10096E240 /* VidKng */ = {
+			isa = PBXGroup;
+			children = (
+				002F117B2F9737180096E240 /* AppDelegates */,
+				002F118B2F97373E0096E240 /* Globals */,
+				002F11972F9737F80096E240 /* Supporting Files */,
+				00DFE6772FD018D80024D939 /* Model */,
+				002F11852F9737180096E240 /* Views */,
+				002F11772F9737180096E240 /* Controllers */,
+				002F11572F9736B10096E240 /* Info.plist */,
+			);
+			path = VidKng;
+			sourceTree = "<group>";
+		};
+		002F116A2F9736B70096E240 /* VidKngTests */ = {
+			isa = PBXGroup;
+			children = (
+				002F11692F9736B70096E240 /* VidKngTests.swift */,
+			);
+			path = VidKngTests;
+			sourceTree = "<group>";
+		};
+		002F116E2F9736B70096E240 /* VidKngUITests */ = {
+			isa = PBXGroup;
+			children = (
+				002F116C2F9736B70096E240 /* VidKngUITests.swift */,
+				002F116D2F9736B70096E240 /* VidKngUITestsLaunchTests.swift */,
+			);
+			path = VidKngUITests;
+			sourceTree = "<group>";
+		};
+		002F11772F9737180096E240 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				002F11922F97378B0096E240 /* Feed */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		002F117B2F9737180096E240 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				002F11792F9737180096E240 /* AppDelegate.swift */,
+				002F117A2F9737180096E240 /* SceneDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		002F117F2F9737180096E240 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				002F117E2F9737180096E240 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		002F11842F9737180096E240 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				002F11812F9737180096E240 /* LaunchScreen.storyboard */,
+				002F11832F9737180096E240 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		002F11852F9737180096E240 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				002F117F2F9737180096E240 /* Assets */,
+				002F11842F9737180096E240 /* Storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		002F118B2F97373E0096E240 /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				002F11892F97373E0096E240 /* Constants.swift */,
+				002F118A2F97373E0096E240 /* DesignableView.swift */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		002F11922F97378B0096E240 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				002F11B52F973CD10096E240 /* Cells */,
+				002F11912F97378B0096E240 /* FeedVC.swift */,
+				002F11AD2F973BA40096E240 /* Feed+TableView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		002F11962F9737F80096E240 /* Navbar */ = {
+			isa = PBXGroup;
+			children = (
+				002F11942F9737F80096E240 /* Navbar.swift */,
+				002F11952F9737F80096E240 /* Navbar.xib */,
+			);
+			path = Navbar;
+			sourceTree = "<group>";
+		};
+		002F11972F9737F80096E240 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				002F11962F9737F80096E240 /* Navbar */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		002F11B12F973CD10096E240 /* Collection Cells */ = {
+			isa = PBXGroup;
+			children = (
+				002F11AF2F973CD10096E240 /* FilterCVuCell.swift */,
+				002F11B02F973CD10096E240 /* FilterCVuCell.xib */,
+			);
+			path = "Collection Cells";
+			sourceTree = "<group>";
+		};
+		002F11B42F973CD10096E240 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				002F11B22F973CD10096E240 /* FilterTVuCell.swift */,
+				002F11B32F973CD10096E240 /* FilterTVuCell.xib */,
+				002F11BA2F97429A0096E240 /* VideoTVuCell.swift */,
+				002F11BB2F97429A0096E240 /* VideoTVuCell.xib */,
+			);
+			path = "Table Cells";
+			sourceTree = "<group>";
+		};
+		002F11B52F973CD10096E240 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				002F11B12F973CD10096E240 /* Collection Cells */,
+				002F11B42F973CD10096E240 /* Table Cells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		00DFE6772FD018D80024D939 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00DFE6762FD018D80024D939 /* VidKng.xcdatamodeld */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,9 +281,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				002F11202F97367D0096E240 /* VidKng */,
 			);
 			name = VidKng;
 			packageProductDependencies = (
@@ -143,9 +302,6 @@
 			dependencies = (
 				002F11392F9736800096E240 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				002F113A2F9736800096E240 /* VidKngTests */,
-			);
 			name = VidKngTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +321,6 @@
 			);
 			dependencies = (
 				002F11432F9736800096E240 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				002F11442F9736800096E240 /* VidKngUITests */,
 			);
 			name = VidKngUITests;
 			packageProductDependencies = (
@@ -225,6 +378,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002F11BC2F97429A0096E240 /* VideoTVuCell.xib in Resources */,
+				002F11862F9737180096E240 /* Assets.xcassets in Resources */,
+				002F11982F9737F80096E240 /* Navbar.xib in Resources */,
+				002F11872F9737180096E240 /* LaunchScreen.storyboard in Resources */,
+				002F11B62F973CD10096E240 /* FilterCVuCell.xib in Resources */,
+				002F11B72F973CD10096E240 /* FilterTVuCell.xib in Resources */,
+				002F11882F9737180096E240 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +409,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00DFE6792FD018D80024D939 /* VidKng.xcdatamodeld in Sources */,
+				002F11AE2F973BA40096E240 /* Feed+TableView.swift in Sources */,
+				002F11992F9737F80096E240 /* Navbar.swift in Sources */,
+				002F11932F97378B0096E240 /* FeedVC.swift in Sources */,
+				002F11B82F973CD10096E240 /* FilterCVuCell.swift in Sources */,
+				002F11B92F973CD10096E240 /* FilterTVuCell.swift in Sources */,
+				002F118C2F97373E0096E240 /* Constants.swift in Sources */,
+				002F118D2F97373E0096E240 /* DesignableView.swift in Sources */,
+				002F117C2F9737180096E240 /* AppDelegate.swift in Sources */,
+				002F117D2F9737180096E240 /* SceneDelegate.swift in Sources */,
+				002F11BD2F97429A0096E240 /* VideoTVuCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +427,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002F116B2F9736B70096E240 /* VidKngTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +435,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002F116F2F9736B70096E240 /* VidKngUITests.swift in Sources */,
+				002F11702F9736B70096E240 /* VidKngUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +455,25 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		002F11812F9737180096E240 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002F11802F9737180096E240 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		002F11832F9737180096E240 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002F11822F9737180096E240 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		002F114B2F9736800096E240 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -291,11 +484,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VidKng/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VidKng;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +497,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Drudotstech.VidKng;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,11 +516,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VidKng/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VidKng;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,6 +529,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Drudotstech.VidKng;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -563,6 +766,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00DFE6762FD018D80024D939 /* VidKng.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00DFE6782FD018D80024D939 /* VidKng.xcdatamodel */,
+			);
+			currentVersion = 00DFE6782FD018D80024D939 /* VidKng.xcdatamodel */;
+			path = VidKng.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 002F11162F97367D0096E240 /* Project object */;
 }
